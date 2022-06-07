@@ -75,7 +75,13 @@ Interpreter: It reads the source code line by line and if there is an error in a
 
 """
 # 12 . Python is a interpreted or compiled language give a clear an with your understanding.
-Python is an interpreted language. Its code is translated into the machine language (0 & 1) during the execution-only.
+Python is a platform-independent language. Python is a complied as well as an interpreted language. In Python to convert the high-level language into a low-level language, the terms compiler comes into the picture. 
+In python when we executed the program 1st the compiler converts the source code into byte and then the interpreter converts the byte code into the machine-level language.
+Source code ---> compiler ---> byte code ---> interpreter ---> machine code
+						(virtual machine (PVM))
+
+In python, the process of execution is a bit different because to make it a platform-free language (we can write code once and can run on the different platforms). As the machine changed the CPU architecture also changed, so if we are writing some code on one machine it may not be executed on the other. So to resolve this problem virtual machine converts the byte code into machine code and makes it platforms independent.
+
 """
 
 """
